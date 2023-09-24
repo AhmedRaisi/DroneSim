@@ -1,0 +1,4 @@
+<map id="HysteresisFilter" name="HysteresisFilter">
+<area shape="rect" id="node1" title="This class is the HysteresisFilter class which only contains an Apply method in the hysteresis_filter..." alt="" coords="5,145,128,223"/>
+<area shape="rect" id="node2" href="$classFilter.html" title="This class is the Filter class which only contains an Apply method in the filter.cc that applies the ..." alt="" coords="21,5,112,97"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Canny" name="Canny">
+<area shape="rect" id="node1" title="This class is the Canny class which only contains an Apply method in the canny_filter...." alt="" coords="19,145,82,223"/>
+<area shape="rect" id="node2" href="$classFilter.html" title="This class is the Filter class which only contains an Apply method in the filter.cc that applies the ..." alt="" coords="5,5,96,97"/>
+</map>

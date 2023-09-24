@@ -1,0 +1,254 @@
+\hypertarget{classImage}{}\doxysection{Image Class Reference}
+\label{classImage}\index{Image@{Image}}
+
+
+This class is the \mbox{\hyperlink{classImage}{Image}} class which contains the main methods to modify or creat an image.  
+
+
+
+
+{\ttfamily \#include $<$image.\+h$>$}
+
+
+
+Collaboration diagram for Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{classImage__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classImage_a58edd1c45b4faeb5f789b0d036d02313}{Image}} ()
+\begin{DoxyCompactList}\small\item\em This \mbox{\hyperlink{classImage}{Image}} constructor takes no arguments and it creates an empty image. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classImage_afb0339b802ed560e69eb07358d30198f}{Image}} (int width, int height)
+\begin{DoxyCompactList}\small\item\em This \mbox{\hyperlink{classImage}{Image}} constructor takes two arguments the width and the height and it creates an image with those dimentions. ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classImage_a9700f58efb58b13e23666f19c67d3839}{Image}} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em This \mbox{\hyperlink{classImage}{Image}} constructor takes one arguments which is the filename which is an input image. ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classImage_a0294f63700543e11c0f0da85601c7ae5}{$\sim$\+Image}} ()
+\begin{DoxyCompactList}\small\item\em This is a destructor that deletes the image from the memory. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classImage_a9742ed0e0f5e57471abb3028a64269b5}{operator=}} (const \mbox{\hyperlink{classImage}{Image}} \&other\+\_\+image)
+\begin{DoxyCompactList}\small\item\em The = operator funtion sets the height, width and components of one image to the other. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classImage_a9e1587386ac1506f47092955155d0935}{Save\+As}} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em The Save\+As function takes one argument and saves the image in the argumwnt name. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classImage_a4d6de643ee334ff52c85da9a62d9297d}{Get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em The Get\+Height function takes no arguments and it gives the height value. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classImage_a4ab80d76fd124fd9de9b4fca8ae16186}{Get\+Width}} ()
+\begin{DoxyCompactList}\small\item\em The Get\+Width function takes no arguments and it gives the width value. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classImage_a04e02c5aa54d26422bbaa777b08de4c9}{Get\+Component\+Num}} ()
+\begin{DoxyCompactList}\small\item\em The Get\+Component\+Num function takes no arguments and it gives the hnumber of components in the pixel. \end{DoxyCompactList}\item 
+unsigned char $\ast$ \mbox{\hyperlink{classImage_aa0b312879805efe9b0bf50929383026d}{Get\+Pixel}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em The Get\+Pixel funtion takes two arguments which are the x and y values of the pixel location in the image. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classImage_a2128f683c26313eac288c00e879eec7d}{Set\+Pixel}} (int x, int y, unsigned char $\ast$pixels)
+\begin{DoxyCompactList}\small\item\em The Set\+Pixel funtion takes two arguments which are the x and y values of the pixel location and sets the pixel in that location in the in the image. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classImage_ad272846d4b404fc2eba2360711181072}{get\+Pixel\+Float}} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em The Get\+Pixel\+Float funtion takes two arguments which are the x and y values of the pixel location in the image. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classImage_acbe08df878398f4db1fc64e5a234368b}{set\+Pixel\+Float}} (int x, int y, float value)
+\begin{DoxyCompactList}\small\item\em The Set\+Pixelfloat funtion takes two arguments which are the x and y values of the pixel location and sets the pixel in float type in the specifix location in the image. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classImage_a9a2c38d0f90325c4526e658463638a3d}\label{classImage_a9a2c38d0f90325c4526e658463638a3d}} 
+unsigned char $\ast$ {\bfseries image}
+\item 
+\mbox{\Hypertarget{classImage_ab8d12f635013c04159cd4d3d972bac88}\label{classImage_ab8d12f635013c04159cd4d3d972bac88}} 
+int {\bfseries width}
+\item 
+\mbox{\Hypertarget{classImage_a51df43db420c9c0b57536cb2dd36de5c}\label{classImage_a51df43db420c9c0b57536cb2dd36de5c}} 
+int {\bfseries height}
+\item 
+\mbox{\Hypertarget{classImage_ac6bbfcf18fdb753ab56cd0d6e21b8d76}\label{classImage_ac6bbfcf18fdb753ab56cd0d6e21b8d76}} 
+int {\bfseries components}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is the \mbox{\hyperlink{classImage}{Image}} class which contains the main methods to modify or creat an image. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classImage_a58edd1c45b4faeb5f789b0d036d02313}\label{classImage_a58edd1c45b4faeb5f789b0d036d02313}} 
+\index{Image@{Image}!Image@{Image}}
+\index{Image@{Image}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{Image()}{Image()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Image\+::\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This \mbox{\hyperlink{classImage}{Image}} constructor takes no arguments and it creates an empty image. 
+
+\begin{DoxyReturn}{Returns}
+This \mbox{\hyperlink{classImage}{Image}} function does not return any value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_afb0339b802ed560e69eb07358d30198f}\label{classImage_afb0339b802ed560e69eb07358d30198f}} 
+\index{Image@{Image}!Image@{Image}}
+\index{Image@{Image}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{Image()}{Image()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Image\+::\+Image (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+This \mbox{\hyperlink{classImage}{Image}} constructor takes two arguments the width and the height and it creates an image with those dimentions. ~\newline
+ 
+
+\begin{DoxyReturn}{Returns}
+This \mbox{\hyperlink{classImage}{Image}} function does not return any value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_a9700f58efb58b13e23666f19c67d3839}\label{classImage_a9700f58efb58b13e23666f19c67d3839}} 
+\index{Image@{Image}!Image@{Image}}
+\index{Image@{Image}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{Image()}{Image()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Image\+::\+Image (\begin{DoxyParamCaption}\item[{const char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+
+
+This \mbox{\hyperlink{classImage}{Image}} constructor takes one arguments which is the filename which is an input image. ~\newline
+ 
+
+\begin{DoxyReturn}{Returns}
+This \mbox{\hyperlink{classImage}{Image}} function does not return any value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_a0294f63700543e11c0f0da85601c7ae5}\label{classImage_a0294f63700543e11c0f0da85601c7ae5}} 
+\index{Image@{Image}!````~Image@{$\sim$Image}}
+\index{````~Image@{$\sim$Image}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{$\sim$Image()}{~Image()}}
+{\footnotesize\ttfamily Image\+::$\sim$\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This is a destructor that deletes the image from the memory. 
+
+\begin{DoxyReturn}{Returns}
+The image destructor does not return any value. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classImage_a04e02c5aa54d26422bbaa777b08de4c9}\label{classImage_a04e02c5aa54d26422bbaa777b08de4c9}} 
+\index{Image@{Image}!GetComponentNum@{GetComponentNum}}
+\index{GetComponentNum@{GetComponentNum}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{GetComponentNum()}{GetComponentNum()}}
+{\footnotesize\ttfamily int Image\+::\+Get\+Component\+Num (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The Get\+Component\+Num function takes no arguments and it gives the hnumber of components in the pixel. 
+
+\begin{DoxyReturn}{Returns}
+Theis function returns the component number of the pixel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_a4d6de643ee334ff52c85da9a62d9297d}\label{classImage_a4d6de643ee334ff52c85da9a62d9297d}} 
+\index{Image@{Image}!GetHeight@{GetHeight}}
+\index{GetHeight@{GetHeight}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{GetHeight()}{GetHeight()}}
+{\footnotesize\ttfamily int Image\+::\+Get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The Get\+Height function takes no arguments and it gives the height value. 
+
+\begin{DoxyReturn}{Returns}
+This function returns the height value of the image. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_aa0b312879805efe9b0bf50929383026d}\label{classImage_aa0b312879805efe9b0bf50929383026d}} 
+\index{Image@{Image}!GetPixel@{GetPixel}}
+\index{GetPixel@{GetPixel}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{GetPixel()}{GetPixel()}}
+{\footnotesize\ttfamily unsigned char $\ast$ Image\+::\+Get\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+The Get\+Pixel funtion takes two arguments which are the x and y values of the pixel location in the image. 
+
+\begin{DoxyReturn}{Returns}
+This funtion returns the pixel at the specific location. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_ad272846d4b404fc2eba2360711181072}\label{classImage_ad272846d4b404fc2eba2360711181072}} 
+\index{Image@{Image}!getPixelFloat@{getPixelFloat}}
+\index{getPixelFloat@{getPixelFloat}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{getPixelFloat()}{getPixelFloat()}}
+{\footnotesize\ttfamily float Image\+::get\+Pixel\+Float (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+The Get\+Pixel\+Float funtion takes two arguments which are the x and y values of the pixel location in the image. 
+
+\begin{DoxyReturn}{Returns}
+This funtion returns the pixel in float type at the specific location. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_a4ab80d76fd124fd9de9b4fca8ae16186}\label{classImage_a4ab80d76fd124fd9de9b4fca8ae16186}} 
+\index{Image@{Image}!GetWidth@{GetWidth}}
+\index{GetWidth@{GetWidth}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{GetWidth()}{GetWidth()}}
+{\footnotesize\ttfamily int Image\+::\+Get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The Get\+Width function takes no arguments and it gives the width value. 
+
+\begin{DoxyReturn}{Returns}
+This function returns the width value of the image. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_a9742ed0e0f5e57471abb3028a64269b5}\label{classImage_a9742ed0e0f5e57471abb3028a64269b5}} 
+\index{Image@{Image}!operator=@{operator=}}
+\index{operator=@{operator=}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily void Image\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classImage}{Image}} \&}]{other\+\_\+image }\end{DoxyParamCaption})}
+
+
+
+The = operator funtion sets the height, width and components of one image to the other. 
+
+\begin{DoxyReturn}{Returns}
+This function does not return any value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_a9e1587386ac1506f47092955155d0935}\label{classImage_a9e1587386ac1506f47092955155d0935}} 
+\index{Image@{Image}!SaveAs@{SaveAs}}
+\index{SaveAs@{SaveAs}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{SaveAs()}{SaveAs()}}
+{\footnotesize\ttfamily int Image\+::\+Save\+As (\begin{DoxyParamCaption}\item[{const char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+
+
+The Save\+As function takes one argument and saves the image in the argumwnt name. 
+
+\begin{DoxyReturn}{Returns}
+This function retuens an integer value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_a2128f683c26313eac288c00e879eec7d}\label{classImage_a2128f683c26313eac288c00e879eec7d}} 
+\index{Image@{Image}!SetPixel@{SetPixel}}
+\index{SetPixel@{SetPixel}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{SetPixel()}{SetPixel()}}
+{\footnotesize\ttfamily void Image\+::\+Set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{unsigned char $\ast$}]{pixels }\end{DoxyParamCaption})}
+
+
+
+The Set\+Pixel funtion takes two arguments which are the x and y values of the pixel location and sets the pixel in that location in the in the image. 
+
+\begin{DoxyReturn}{Returns}
+This funtion returns no value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classImage_acbe08df878398f4db1fc64e5a234368b}\label{classImage_acbe08df878398f4db1fc64e5a234368b}} 
+\index{Image@{Image}!setPixelFloat@{setPixelFloat}}
+\index{setPixelFloat@{setPixelFloat}!Image@{Image}}
+\doxysubsubsection{\texorpdfstring{setPixelFloat()}{setPixelFloat()}}
+{\footnotesize\ttfamily void Image\+::set\+Pixel\+Float (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{float}]{value }\end{DoxyParamCaption})}
+
+
+
+The Set\+Pixelfloat funtion takes two arguments which are the x and y values of the pixel location and sets the pixel in float type in the specifix location in the image. 
+
+\begin{DoxyReturn}{Returns}
+This funtion returns no value. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/alhar078/3081/repo-\/team-\/27/project/src/image.\+h\item 
+/home/alhar078/3081/repo-\/team-\/27/project/src/image.\+cc\end{DoxyCompactItemize}

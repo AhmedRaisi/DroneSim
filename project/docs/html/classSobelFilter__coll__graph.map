@@ -1,0 +1,4 @@
+<map id="SobelFilter" name="SobelFilter">
+<area shape="rect" id="node1" title="This class is the SobelFilter class which only contains an Apply method in the sobel_filter...." alt="" coords="5,145,96,223"/>
+<area shape="rect" id="node2" href="$classFilter.html" title="This class is the Filter class which only contains an Apply method in the filter.cc that applies the ..." alt="" coords="5,5,96,97"/>
+</map>

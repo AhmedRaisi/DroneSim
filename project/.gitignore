@@ -1,0 +1,8 @@
+*.o
+*_app
+data
+image_processor
+*.png
+*.jpg
+*-app
+build

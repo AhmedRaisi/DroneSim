@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classFilter.html" title="This class is the Filter class which only contains an Apply method in the filter.cc that applies the ..." alt="" coords="5,208,60,235"/>
+<area shape="rect" id="node2" href="$classCanny.html" title="This class is the Canny class which only contains an Apply method in the canny_filter...." alt="" coords="170,5,233,32"/>
+<area shape="rect" id="node3" href="$classDoubleThresholdFilter.html" title="This class is the DoubleThresholdFilter class which contains an Apply method in the doublethreshold_f..." alt="" coords="119,56,283,83"/>
+<area shape="rect" id="node4" href="$classGaussianFilter.html" title="This class is the GaussianFilter class which contains an Apply method in the gaussian_filter...." alt="" coords="144,107,259,133"/>
+<area shape="rect" id="node5" href="$classGreyScaleFilter.html" title="This class is the GreyScaleFilter class which contains an Apply method in the greyscale_filter...." alt="" coords="141,157,261,184"/>
+<area shape="rect" id="node6" href="$classHysteresisFilter.html" title="This class is the HysteresisFilter class which only contains an Apply method in the hysteresis_filter..." alt="" coords="140,208,263,235"/>
+<area shape="rect" id="node7" href="$classMeanFilter.html" title="This class is the MeanFilter class which only contains an Apply method in the mean_filter...." alt="" coords="156,259,247,285"/>
+<area shape="rect" id="node8" href="$classNonMaxSuppressionFilter.html" title="This class is the NonMaxSuppressionFilter class which contains an Apply method in the nonmaxsuppressi..." alt="" coords="108,309,295,336"/>
+<area shape="rect" id="node9" href="$classSobelFilter.html" title="This class is the SobelFilter class which only contains an Apply method in the sobel_filter...." alt="" coords="156,360,247,387"/>
+<area shape="rect" id="node10" href="$classYaqdhanFilter.html" title="This class is the YaqdhanFilter class which contains an Apply method in the yaqdhan_filter...." alt="" coords="147,411,255,437"/>
+</map>

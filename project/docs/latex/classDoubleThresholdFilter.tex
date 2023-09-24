@@ -1,0 +1,100 @@
+\hypertarget{classDoubleThresholdFilter}{}\doxysection{Double\+Threshold\+Filter Class Reference}
+\label{classDoubleThresholdFilter}\index{DoubleThresholdFilter@{DoubleThresholdFilter}}
+
+
+This class is the \mbox{\hyperlink{classDoubleThresholdFilter}{Double\+Threshold\+Filter}} class which contains an Apply method in the doublethreshold\+\_\+filter.\+cc file that applies the filter.  
+
+
+
+
+{\ttfamily \#include $<$doublethreshold\+\_\+filter.\+h$>$}
+
+
+
+Inheritance diagram for Double\+Threshold\+Filter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classDoubleThresholdFilter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Double\+Threshold\+Filter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classDoubleThresholdFilter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDoubleThresholdFilter_ae4c841df681b376c611e2bc07a2a0d54}{Double\+Threshold\+Filter}} ()
+\begin{DoxyCompactList}\small\item\em This is the base constructor that takes no parameters. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDoubleThresholdFilter_a75be0b625913c43d52b6091485cb9e7e}{Double\+Threshold\+Filter}} (double high, double low)
+\begin{DoxyCompactList}\small\item\em This is constructor that takes two doubles, a high ratio value and a low ratio value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDoubleThresholdFilter_a1fcd0986817a4ea9f37c28dc9e5fce87}{Apply}} (std\+::vector$<$ \mbox{\hyperlink{classImage}{Image}} $\ast$ $>$ \&original, std\+::vector$<$ \mbox{\hyperlink{classImage}{Image}} $\ast$ $>$ \&filtered) override
+\begin{DoxyCompactList}\small\item\em The Apply method takes two images the original and filtered image. It contains the algorithm that modifies the original image by applying some arithmetics on the pixels and saves it to the filtered image. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is the \mbox{\hyperlink{classDoubleThresholdFilter}{Double\+Threshold\+Filter}} class which contains an Apply method in the doublethreshold\+\_\+filter.\+cc file that applies the filter. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDoubleThresholdFilter_ae4c841df681b376c611e2bc07a2a0d54}\label{classDoubleThresholdFilter_ae4c841df681b376c611e2bc07a2a0d54}} 
+\index{DoubleThresholdFilter@{DoubleThresholdFilter}!DoubleThresholdFilter@{DoubleThresholdFilter}}
+\index{DoubleThresholdFilter@{DoubleThresholdFilter}!DoubleThresholdFilter@{DoubleThresholdFilter}}
+\doxysubsubsection{\texorpdfstring{DoubleThresholdFilter()}{DoubleThresholdFilter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Double\+Threshold\+Filter\+::\+Double\+Threshold\+Filter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This is the base constructor that takes no parameters. 
+
+\begin{DoxyReturn}{Returns}
+constructor doesn\textquotesingle{}t return anything. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDoubleThresholdFilter_a75be0b625913c43d52b6091485cb9e7e}\label{classDoubleThresholdFilter_a75be0b625913c43d52b6091485cb9e7e}} 
+\index{DoubleThresholdFilter@{DoubleThresholdFilter}!DoubleThresholdFilter@{DoubleThresholdFilter}}
+\index{DoubleThresholdFilter@{DoubleThresholdFilter}!DoubleThresholdFilter@{DoubleThresholdFilter}}
+\doxysubsubsection{\texorpdfstring{DoubleThresholdFilter()}{DoubleThresholdFilter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Double\+Threshold\+Filter\+::\+Double\+Threshold\+Filter (\begin{DoxyParamCaption}\item[{double}]{high,  }\item[{double}]{low }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+This is constructor that takes two doubles, a high ratio value and a low ratio value. 
+
+\begin{DoxyReturn}{Returns}
+constructor doesn\textquotesingle{}t return anything. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDoubleThresholdFilter_a1fcd0986817a4ea9f37c28dc9e5fce87}\label{classDoubleThresholdFilter_a1fcd0986817a4ea9f37c28dc9e5fce87}} 
+\index{DoubleThresholdFilter@{DoubleThresholdFilter}!Apply@{Apply}}
+\index{Apply@{Apply}!DoubleThresholdFilter@{DoubleThresholdFilter}}
+\doxysubsubsection{\texorpdfstring{Apply()}{Apply()}}
+{\footnotesize\ttfamily void Double\+Threshold\+Filter\+::\+Apply (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classImage}{Image}} $\ast$ $>$ \&}]{original,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classImage}{Image}} $\ast$ $>$ \&}]{filtered }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+The Apply method takes two images the original and filtered image. It contains the algorithm that modifies the original image by applying some arithmetics on the pixels and saves it to the filtered image. 
+
+\begin{DoxyReturn}{Returns}
+The Apply function does not return any value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFilter}{Filter}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/alhar078/3081/repo-\/team-\/27/project/src/\mbox{\hyperlink{doublethreshold__filter_8h}{doublethreshold\+\_\+filter.\+h}}\item 
+/home/alhar078/3081/repo-\/team-\/27/project/src/doublethreshold\+\_\+filter.\+cc\end{DoxyCompactItemize}

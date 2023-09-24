@@ -1,0 +1,4 @@
+<map id="GreyScaleFilter" name="GreyScaleFilter">
+<area shape="rect" id="node1" title="This class is the GreyScaleFilter class which contains an Apply method in the greyscale_filter...." alt="" coords="5,145,125,223"/>
+<area shape="rect" id="node2" href="$classFilter.html" title="This class is the Filter class which only contains an Apply method in the filter.cc that applies the ..." alt="" coords="20,5,111,97"/>
+</map>
